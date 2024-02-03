@@ -3,13 +3,13 @@
     "description": "اهلا بكم في تنصيب سورس صيد اليوزرات !",
     "logo" : "https://telegra.ph/file/4992d6e018a251fee31b1.jpg",
     "stack": "container",
-    "repository": "https://github.com/perdark/per-sed",
+    "repository": "https://github.com/STKR2/P",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/SS7SS/Tepthon",
+    "website": "https://github.com/STKR2/P",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
@@ -36,5 +36,13 @@
             "value": "",
             "required": true
         }
+    },
+"buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    },
+    {
+      "url": "heroku/python"
     }
+  ]
 }
